@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>奥迪</key>
+	<array>
+		<string>奥迪A8</string>
+		<string>奥迪A6</string>
+		<string>奥迪A4</string>
+	</array>
+	<key>奔驰</key>
+	<array>
+		<string>奔驰B</string>
+		<string>奔驰S</string>
+	</array>
+	<key>宝马</key>
+	<array>
+		<string>宝马3</string>
+		<string>宝马5</string>
+		<string>宝马7</string>
+	</array>
+</dict>
+</plist>

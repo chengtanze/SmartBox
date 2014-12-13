@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>accessoryType</key>
+		<false/>
+		<key>Content</key>
+		<string>123456</string>
+		<key>Name</key>
+		<string>车友号</string>
+	</dict>
+	<dict>
+		<key>accessoryType</key>
+		<true/>
+		<key>Content</key>
+		<string>13888888888</string>
+		<key>Name</key>
+		<string>手机号码</string>
+	</dict>
+	<dict>
+		<key>accessoryType</key>
+		<true/>
+		<key>Content</key>
+		<string>男</string>
+		<key>Name</key>
+		<string>性别</string>
+	</dict>
+	<dict>
+		<key>accessoryType</key>
+		<true/>
+		<key>Content</key>
+		<string>未设置</string>
+		<key>Name</key>
+		<string>昵称</string>
+	</dict>
+	<dict>
+		<key>accessoryType</key>
+		<true/>
+		<key>Content</key>
+		<string>点击修改</string>
+		<key>Name</key>
+		<string>修改密码</string>
+		<key>PassWord</key>
+		<string>123456</string>
+	</dict>
+</array>
+</plist>

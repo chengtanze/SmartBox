@@ -1,0 +1,1252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC0D6FDE1A2EEA6D00F810C9 /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0D6FDD1A2EEA6D00F810C9 /* RadioButton.m */; };
+		FC530C071A37E09A00F8EDA5 /* PointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC530C061A37E09A00F8EDA5 /* PointViewController.m */; };
+		FC5729661A31499E00762D30 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5729651A31499E00762D30 /* MoreViewController.m */; };
+		FC5729EF1A31522000762D30 /* 0-SMART-BOX-启动.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729691A31522000762D30 /* 0-SMART-BOX-启动.png */; };
+		FC5729F01A31522000762D30 /* 0-SMART-BOX-启动_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57296A1A31522000762D30 /* 0-SMART-BOX-启动_logo.png */; };
+		FC5729F11A31522000762D30 /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = FC57296B1A31522000762D30 /* Thumbs.db */; };
+		FC5729F21A31522000762D30 /* 1-SMART-BOX-登录.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57296D1A31522000762D30 /* 1-SMART-BOX-登录.png */; };
+		FC5729F31A31522000762D30 /* Change-password-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57296E1A31522000762D30 /* Change-password-Icon.png */; };
+		FC5729F41A31522000762D30 /* login-icon-1.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57296F1A31522000762D30 /* login-icon-1.png */; };
+		FC5729F51A31522000762D30 /* login-icon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729701A31522000762D30 /* login-icon-2.png */; };
+		FC5729F61A31522000762D30 /* Registration-Camera-ICON.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729711A31522000762D30 /* Registration-Camera-ICON.png */; };
+		FC5729F71A31522000762D30 /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = FC5729721A31522000762D30 /* Thumbs.db */; };
+		FC5729F81A31522000762D30 /* 2-SMART-BOX-主界面-统计-2.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729741A31522000762D30 /* 2-SMART-BOX-主界面-统计-2.png */; };
+		FC5729F91A31522000762D30 /* 2-SMART-BOX-主界面-统计.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729751A31522000762D30 /* 2-SMART-BOX-主界面-统计.png */; };
+		FC5729FA1A31522000762D30 /* 2-SMART-BOX-统计报表-1.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729761A31522000762D30 /* 2-SMART-BOX-统计报表-1.png */; };
+		FC5729FB1A31522000762D30 /* 2-SMART-BOX-统计报表-2.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729771A31522000762D30 /* 2-SMART-BOX-统计报表-2.png */; };
+		FC5729FC1A31522000762D30 /* 2-SMART-BOX-统计报表-3.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729781A31522000762D30 /* 2-SMART-BOX-统计报表-3.png */; };
+		FC5729FD1A31522000762D30 /* Grade-background-color.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729791A31522000762D30 /* Grade-background-color.png */; };
+		FC5729FE1A31522000762D30 /* Share-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57297A1A31522000762D30 /* Share-Icon.png */; };
+		FC5729FF1A31522000762D30 /* Statistical-report-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57297B1A31522000762D30 /* Statistical-report-Icon.png */; };
+		FC572A001A31522000762D30 /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = FC57297C1A31522000762D30 /* Thumbs.db */; };
+		FC572A011A31522000762D30 /* 3-SMART-BOX-主界面-行驶.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57297E1A31522000762D30 /* 3-SMART-BOX-主界面-行驶.png */; };
+		FC572A021A31522000762D30 /* date-list-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57297F1A31522000762D30 /* date-list-icon.png */; };
+		FC572A031A31522000762D30 /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = FC5729801A31522000762D30 /* Thumbs.db */; };
+		FC572A041A31522000762D30 /* 4-SMART-BOX-主界面-发现.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729821A31522000762D30 /* 4-SMART-BOX-主界面-发现.png */; };
+		FC572A051A31522000762D30 /* news-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729831A31522000762D30 /* news-icon.png */; };
+		FC572A061A31522000762D30 /* setting-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729841A31522000762D30 /* setting-icon.png */; };
+		FC572A071A31522000762D30 /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = FC5729851A31522000762D30 /* Thumbs.db */; };
+		FC572A081A31522000762D30 /* 4-SMART-BOX-主界面-发现-消息提醒内容.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729871A31522000762D30 /* 4-SMART-BOX-主界面-发现-消息提醒内容.png */; };
+		FC572A091A31522000762D30 /* 5-SMART-BOX-主界面-更多.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729881A31522000762D30 /* 5-SMART-BOX-主界面-更多.png */; };
+		FC572A0A1A31522000762D30 /* angle.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729891A31522000762D30 /* angle.png */; };
+		FC572A0B1A31522000762D30 /* car-broke-down.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57298A1A31522000762D30 /* car-broke-down.png */; };
+		FC572A0C1A31522000762D30 /* car-broke-down.png.baiduyun.uploading.cfg in Resources */ = {isa = PBXBuildFile; fileRef = FC57298B1A31522000762D30 /* car-broke-down.png.baiduyun.uploading.cfg */; };
+		FC572A0D1A31522000762D30 /* injured-man.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57298C1A31522000762D30 /* injured-man.png */; };
+		FC572A0E1A31522000762D30 /* Insurance.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57298D1A31522000762D30 /* Insurance.png */; };
+		FC572A0F1A31522000762D30 /* left-on.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57298E1A31522000762D30 /* left-on.png */; };
+		FC572A101A31522000762D30 /* left-under.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57298F1A31522000762D30 /* left-under.png */; };
+		FC572A111A31522000762D30 /* portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729901A31522000762D30 /* portrait.png */; };
+		FC572A121A31522000762D30 /* right-on.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729911A31522000762D30 /* right-on.png */; };
+		FC572A131A31522000762D30 /* right-under.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729921A31522000762D30 /* right-under.png */; };
+		FC572A141A31522000762D30 /* Setting-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729931A31522000762D30 /* Setting-Icon.png */; };
+		FC572A151A31522000762D30 /* The-car-position-ICON.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729941A31522000762D30 /* The-car-position-ICON.png */; };
+		FC572A161A31522000762D30 /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = FC5729951A31522000762D30 /* Thumbs.db */; };
+		FC572A171A31522000762D30 /* Warning.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729961A31522000762D30 /* Warning.png */; };
+		FC572A181A31522000762D30 /* 5-SMART-BOX-about-feedback.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729981A31522000762D30 /* 5-SMART-BOX-about-feedback.png */; };
+		FC572A191A31522000762D30 /* 5-SMART-BOX-about-update.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729991A31522000762D30 /* 5-SMART-BOX-about-update.png */; };
+		FC572A1A1A31522000762D30 /* 5-SMART-BOX-bxfa-detail.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57299A1A31522000762D30 /* 5-SMART-BOX-bxfa-detail.png */; };
+		FC572A1B1A31522000762D30 /* 5-SMART-BOX-bxfa-long.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57299B1A31522000762D30 /* 5-SMART-BOX-bxfa-long.png */; };
+		FC572A1C1A31522000762D30 /* 5-SMART-BOX-bxfa-taxi.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57299C1A31522000762D30 /* 5-SMART-BOX-bxfa-taxi.png */; };
+		FC572A1D1A31522000762D30 /* 5-SMART-BOX-bxfa-time.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57299D1A31522000762D30 /* 5-SMART-BOX-bxfa-time.png */; };
+		FC572A1E1A31522000762D30 /* 5-SMART-BOX-car-checkbox01.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57299E1A31522000762D30 /* 5-SMART-BOX-car-checkbox01.png */; };
+		FC572A1F1A31522000762D30 /* 5-SMART-BOX-car-checkbox02.png in Resources */ = {isa = PBXBuildFile; fileRef = FC57299F1A31522000762D30 /* 5-SMART-BOX-car-checkbox02.png */; };
+		FC572A201A31522000762D30 /* 5-SMART-BOX-car-checkbox03.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729A01A31522000762D30 /* 5-SMART-BOX-car-checkbox03.png */; };
+		FC572A211A31522000762D30 /* 5-SMART-BOX-car-close.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729A11A31522000762D30 /* 5-SMART-BOX-car-close.png */; };
+		FC572A221A31522000762D30 /* 5-SMART-BOX-car-open.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729A21A31522000762D30 /* 5-SMART-BOX-car-open.png */; };
+		FC572A231A31522000762D30 /* 5-SMART-BOX-car-up.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729A31A31522000762D30 /* 5-SMART-BOX-car-up.png */; };
+		FC572A241A31522000762D30 /* 5-SMART-BOX-icon-arrow01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729A41A31522000762D30 /* 5-SMART-BOX-icon-arrow01.jpg */; };
+		FC572A251A31522000762D30 /* 5-SMART-BOX-icon-back.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729A51A31522000762D30 /* 5-SMART-BOX-icon-back.png */; };
+		FC572A261A31522000762D30 /* 5-SMART-BOX-icon-closed.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729A61A31522000762D30 /* 5-SMART-BOX-icon-closed.png */; };
+		FC572A271A31522000762D30 /* 5-SMART-BOX-icon-map.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729A71A31522000762D30 /* 5-SMART-BOX-icon-map.png */; };
+		FC572A281A31522000762D30 /* 5-SMART-BOX-icon-open.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729A81A31522000762D30 /* 5-SMART-BOX-icon-open.png */; };
+		FC572A291A31522000762D30 /* 5-SMART-BOX-icon-report.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729A91A31522000762D30 /* 5-SMART-BOX-icon-report.png */; };
+		FC572A2A1A31522000762D30 /* 5-SMART-BOX-map-bus01.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729AA1A31522000762D30 /* 5-SMART-BOX-map-bus01.png */; };
+		FC572A2B1A31522000762D30 /* 5-SMART-BOX-map-bus02.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729AB1A31522000762D30 /* 5-SMART-BOX-map-bus02.png */; };
+		FC572A2C1A31522000762D30 /* 5-SMART-BOX-map-car.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729AC1A31522000762D30 /* 5-SMART-BOX-map-car.png */; };
+		FC572A2D1A31522000762D30 /* 5-SMART-BOX-map-me.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729AD1A31522000762D30 /* 5-SMART-BOX-map-me.png */; };
+		FC572A2E1A31522000762D30 /* 5-SMART-BOX-map-qi.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729AE1A31522000762D30 /* 5-SMART-BOX-map-qi.png */; };
+		FC572A2F1A31522000762D30 /* 5-SMART-BOX-map-taxi01.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729AF1A31522000762D30 /* 5-SMART-BOX-map-taxi01.png */; };
+		FC572A301A31522000762D30 /* 5-SMART-BOX-map-taxi02.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729B01A31522000762D30 /* 5-SMART-BOX-map-taxi02.png */; };
+		FC572A311A31522000762D30 /* 5-SMART-BOX-map-walk01.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729B11A31522000762D30 /* 5-SMART-BOX-map-walk01.png */; };
+		FC572A321A31522000762D30 /* 5-SMART-BOX-map-walk02.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729B21A31522000762D30 /* 5-SMART-BOX-map-walk02.png */; };
+		FC572A331A31522000762D30 /* 5-SMART-BOX-map-zhong.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729B31A31522000762D30 /* 5-SMART-BOX-map-zhong.png */; };
+		FC572A341A31522000762D30 /* 5-SMART-BOX-more-acwz.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729B41A31522000762D30 /* 5-SMART-BOX-more-acwz.png */; };
+		FC572A351A31522000762D30 /* 5-SMART-BOX-more-dljy.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729B51A31522000762D30 /* 5-SMART-BOX-more-dljy.png */; };
+		FC572A361A31522000762D30 /* 5-SMART-BOX-more-qdyj.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729B61A31522000762D30 /* 5-SMART-BOX-more-qdyj.png */; };
+		FC572A371A31522000762D30 /* 5-SMART-BOX-more-rsjy.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729B71A31522000762D30 /* 5-SMART-BOX-more-rsjy.png */; };
+		FC572A381A31522000762D30 /* 5-SMART-BOX-more-set.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729B81A31522000762D30 /* 5-SMART-BOX-more-set.png */; };
+		FC572A391A31522000762D30 /* 5-SMART-BOX-more-user.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729B91A31522000762D30 /* 5-SMART-BOX-more-user.png */; };
+		FC572A3A1A31522000762D30 /* 5-SMART-BOX-more-yxbx.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729BA1A31522000762D30 /* 5-SMART-BOX-more-yxbx.png */; };
+		FC572A3B1A31522000762D30 /* 5-SMART-BOX-nophone.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729BB1A31522000762D30 /* 5-SMART-BOX-nophone.png */; };
+		FC572A3C1A31522000762D30 /* 5-SMART-BOX-pic-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729BC1A31522000762D30 /* 5-SMART-BOX-pic-camera.png */; };
+		FC572A3D1A31522000762D30 /* 5-SMART-BOX-pic-camera01.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729BD1A31522000762D30 /* 5-SMART-BOX-pic-camera01.png */; };
+		FC572A3E1A31522000762D30 /* 5-SMART-BOX-pic-camera02.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729BE1A31522000762D30 /* 5-SMART-BOX-pic-camera02.png */; };
+		FC572A3F1A31522000762D30 /* 5-SMART-BOX-pic-greensure.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729BF1A31522000762D30 /* 5-SMART-BOX-pic-greensure.png */; };
+		FC572A401A31522000762D30 /* 5-SMART-BOX-pic-sure.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729C01A31522000762D30 /* 5-SMART-BOX-pic-sure.png */; };
+		FC572A411A31522000762D30 /* 5-SMART-BOX-position-address.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729C11A31522000762D30 /* 5-SMART-BOX-position-address.png */; };
+		FC572A421A31522000762D30 /* 5-SMART-BOX-position-car.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729C21A31522000762D30 /* 5-SMART-BOX-position-car.png */; };
+		FC572A431A31522000762D30 /* 5-SMART-BOX-position-go.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729C31A31522000762D30 /* 5-SMART-BOX-position-go.png */; };
+		FC572A441A31522000762D30 /* 5-SMART-BOX-position-me.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729C41A31522000762D30 /* 5-SMART-BOX-position-me.png */; };
+		FC572A451A31522000762D30 /* 5-SMART-BOX-report-date.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729C51A31522000762D30 /* 5-SMART-BOX-report-date.png */; };
+		FC572A461A31522000762D30 /* 5-SMART-BOX-report-sucess.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5729C61A31522000762D30 /* 5-SMART-BOX-report-sucess.png */; };
+		FC572A471A31522000762D30 /* 5-SMART-BOX-set-clxx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729C71A31522000762D30 /* 5-SMART-BOX-set-clxx.jpg */; };
+		FC572A481A31522000762D30 /* 5-SMART-BOX-set-grxx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729C81A31522000762D30 /* 5-SMART-BOX-set-grxx.jpg */; };
+		FC572A491A31522000762D30 /* 5-SMART-BOX-set-gywm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729C91A31522000762D30 /* 5-SMART-BOX-set-gywm.jpg */; };
+		FC572A4A1A31522000762D30 /* 5-SMART-BOX-set-jf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729CA1A31522000762D30 /* 5-SMART-BOX-set-jf.jpg */; };
+		FC572A4B1A31522000762D30 /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = FC5729CB1A31522000762D30 /* Thumbs.db */; };
+		FC572A4C1A31522000762D30 /* 更多-个人信息.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729CC1A31522000762D30 /* 更多-个人信息.jpg */; };
+		FC572A4D1A31522000762D30 /* 更多-人伤救援1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729CD1A31522000762D30 /* 更多-人伤救援1.jpg */; };
+		FC572A4E1A31522000762D30 /* 更多-人伤救援2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729CE1A31522000762D30 /* 更多-人伤救援2.jpg */; };
+		FC572A4F1A31522000762D30 /* 更多-人伤救援3-事发地点.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729CF1A31522000762D30 /* 更多-人伤救援3-事发地点.jpg */; };
+		FC572A501A31522000762D30 /* 更多-人伤救援4-记录.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729D01A31522000762D30 /* 更多-人伤救援4-记录.jpg */; };
+		FC572A511A31522000762D30 /* 更多-修改密码.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729D11A31522000762D30 /* 更多-修改密码.jpg */; };
+		FC572A521A31522000762D30 /* 更多-修改昵称.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729D21A31522000762D30 /* 更多-修改昵称.jpg */; };
+		FC572A531A31522000762D30 /* 更多-关于我们1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729D31A31522000762D30 /* 更多-关于我们1.jpg */; };
+		FC572A541A31522000762D30 /* 更多-关于我们2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729D41A31522000762D30 /* 更多-关于我们2.jpg */; };
+		FC572A551A31522000762D30 /* 更多-关于我们3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729D51A31522000762D30 /* 更多-关于我们3.jpg */; };
+		FC572A561A31522000762D30 /* 更多-启动预警1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729D61A31522000762D30 /* 更多-启动预警1.jpg */; };
+		FC572A571A31522000762D30 /* 更多-启动预警2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729D71A31522000762D30 /* 更多-启动预警2.jpg */; };
+		FC572A581A31522000762D30 /* 更多-启动预警3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729D81A31522000762D30 /* 更多-启动预警3.jpg */; };
+		FC572A591A31522000762D30 /* 更多-启动预警4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729D91A31522000762D30 /* 更多-启动预警4.jpg */; };
+		FC572A5A1A31522000762D30 /* 更多-启动预警5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729DA1A31522000762D30 /* 更多-启动预警5.jpg */; };
+		FC572A5B1A31522000762D30 /* 更多-启动预警6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729DB1A31522000762D30 /* 更多-启动预警6.jpg */; };
+		FC572A5C1A31522000762D30 /* 更多-启动预警7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729DC1A31522000762D30 /* 更多-启动预警7.jpg */; };
+		FC572A5D1A31522000762D30 /* 更多-爱车位置1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729DD1A31522000762D30 /* 更多-爱车位置1.jpg */; };
+		FC572A5E1A31522000762D30 /* 更多-爱车位置2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729DE1A31522000762D30 /* 更多-爱车位置2.jpg */; };
+		FC572A5F1A31522000762D30 /* 更多-爱车位置3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729DF1A31522000762D30 /* 更多-爱车位置3.jpg */; };
+		FC572A601A31522000762D30 /* 更多-爱车位置4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729E01A31522000762D30 /* 更多-爱车位置4.jpg */; };
+		FC572A611A31522000762D30 /* 更多-爱车位置5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729E11A31522000762D30 /* 更多-爱车位置5.jpg */; };
+		FC572A621A31522000762D30 /* 更多-绑定手机1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729E21A31522000762D30 /* 更多-绑定手机1.jpg */; };
+		FC572A631A31522000762D30 /* 更多-绑定手机2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729E31A31522000762D30 /* 更多-绑定手机2.jpg */; };
+		FC572A641A31522000762D30 /* 更多-解除绑定.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729E41A31522000762D30 /* 更多-解除绑定.jpg */; };
+		FC572A651A31522000762D30 /* 更多-设置.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729E51A31522000762D30 /* 更多-设置.jpg */; };
+		FC572A661A31522000762D30 /* 更多-车辆信息1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729E61A31522000762D30 /* 更多-车辆信息1.jpg */; };
+		FC572A671A31522000762D30 /* 更多-车辆信息2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729E71A31522000762D30 /* 更多-车辆信息2.jpg */; };
+		FC572A681A31522000762D30 /* 更多-车辆信息3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729E81A31522000762D30 /* 更多-车辆信息3.jpg */; };
+		FC572A691A31522000762D30 /* 更多-选择头像1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729E91A31522000762D30 /* 更多-选择头像1.jpg */; };
+		FC572A6A1A31522000762D30 /* 更多-选择头像2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729EA1A31522000762D30 /* 更多-选择头像2.jpg */; };
+		FC572A6B1A31522000762D30 /* 更多-选择头像3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729EB1A31522000762D30 /* 更多-选择头像3.jpg */; };
+		FC572A6C1A31522000762D30 /* 更多-道路救援1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729EC1A31522000762D30 /* 更多-道路救援1.jpg */; };
+		FC572A6D1A31522000762D30 /* 更多-道路救援2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729ED1A31522000762D30 /* 更多-道路救援2.jpg */; };
+		FC572A6E1A31522000762D30 /* 更多-首页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC5729EE1A31522000762D30 /* 更多-首页.jpg */; };
+		FC5EC3101A19991800F70FFD /* PersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5EC30F1A19991800F70FFD /* PersonInfoViewController.m */; };
+		FC5EC3121A19CE5D00F70FFD /* 5-SMART-BOX-more-user.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5EC3111A19CE5D00F70FFD /* 5-SMART-BOX-more-user.png */; };
+		FC5EC31B1A19E41100F70FFD /* PersonInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC5EC31A1A19E41100F70FFD /* PersonInfo.plist */; };
+		FC5EC31E1A19FC6500F70FFD /* BindPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5EC31D1A19FC6500F70FFD /* BindPhoneViewController.m */; };
+		FC61CBBA1A2EA90D0047BF2A /* ChoiceCarTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC61CBB91A2EA90D0047BF2A /* ChoiceCarTypeViewController.m */; };
+		FC61CBBD1A2EABDD0047BF2A /* CarTypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC61CBBC1A2EABDD0047BF2A /* CarTypeTableViewCell.m */; };
+		FC62B5C61A368BE200F7FF98 /* HumanRescueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC62B5C51A368BE200F7FF98 /* HumanRescueViewController.m */; };
+		FC62B5C91A36A4C200F7FF98 /* ContactInforViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC62B5C81A36A4C200F7FF98 /* ContactInforViewController.m */; };
+		FC6506651A1599060012288F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6506641A1599060012288F /* main.m */; };
+		FC6506681A1599060012288F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6506671A1599060012288F /* AppDelegate.m */; };
+		FC65066B1A1599060012288F /* SmartBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC6506691A1599060012288F /* SmartBox.xcdatamodeld */; };
+		FC6506711A1599060012288F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC65066F1A1599060012288F /* Main.storyboard */; };
+		FC6506731A1599060012288F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6506721A1599060012288F /* Images.xcassets */; };
+		FC6506761A1599060012288F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6506741A1599060012288F /* LaunchScreen.xib */; };
+		FC6506821A1599060012288F /* SmartBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6506811A1599060012288F /* SmartBoxTests.m */; };
+		FC6506901A15ACEC0012288F /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65068F1A15ACEC0012288F /* SettingViewController.m */; };
+		FC6506921A15B03B0012288F /* SettingItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC6506911A15B03B0012288F /* SettingItem.plist */; };
+		FC6506971A15EF570012288F /* 5-SMART-BOX-set-clxx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC6506931A15EF570012288F /* 5-SMART-BOX-set-clxx.jpg */; };
+		FC6506981A15EF570012288F /* 5-SMART-BOX-set-grxx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC6506941A15EF570012288F /* 5-SMART-BOX-set-grxx.jpg */; };
+		FC6506991A15EF570012288F /* 5-SMART-BOX-set-gywm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC6506951A15EF570012288F /* 5-SMART-BOX-set-gywm.jpg */; };
+		FC65069A1A15EF570012288F /* 5-SMART-BOX-set-jf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC6506961A15EF570012288F /* 5-SMART-BOX-set-jf.jpg */; };
+		FC67C4FB1A3556B400103441 /* 0-SMART-BOX-启动640-960.png in Resources */ = {isa = PBXBuildFile; fileRef = FC67C4F71A3556B400103441 /* 0-SMART-BOX-启动640-960.png */; };
+		FC67C4FC1A3556B400103441 /* 0-SMART-BOX-启动640-1136.png in Resources */ = {isa = PBXBuildFile; fileRef = FC67C4F81A3556B400103441 /* 0-SMART-BOX-启动640-1136.png */; };
+		FC67C4FD1A3556B400103441 /* 0-SMART-BOX-启动750-1334.png in Resources */ = {isa = PBXBuildFile; fileRef = FC67C4F91A3556B400103441 /* 0-SMART-BOX-启动750-1334.png */; };
+		FC67C4FE1A3556B400103441 /* 0-SMART-BOX-启动1242-2208.png in Resources */ = {isa = PBXBuildFile; fileRef = FC67C4FA1A3556B400103441 /* 0-SMART-BOX-启动1242-2208.png */; };
+		FC6999D31A1DEA000056C725 /* EditNickNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6999D21A1DEA000056C725 /* EditNickNameViewController.m */; };
+		FC6BBBEB1A1C3025006DC742 /* PassWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6BBBEA1A1C3025006DC742 /* PassWordViewController.m */; };
+		FC77378E1A256E62000A55DE /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC77378D1A256E61000A55DE /* MapViewController.m */; };
+		FC7737901A256EA2000A55DE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC77378F1A256EA2000A55DE /* CoreLocation.framework */; };
+		FC7737931A25BFD2000A55DE /* MapClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7737921A25BFD2000A55DE /* MapClientViewController.m */; };
+		FC7737951A25CE5C000A55DE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7737941A25CE5C000A55DE /* MapKit.framework */; };
+		FC86A60D1A3940EE0022F9A7 /* PointCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC86A60C1A3940EE0022F9A7 /* PointCell.xib */; };
+		FC86A6101A3941040022F9A7 /* PointTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC86A60F1A3941040022F9A7 /* PointTableViewCell.m */; };
+		FC8C526E1A245879002A3F74 /* CarInfoKeyItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8C526D1A245879002A3F74 /* CarInfoKeyItem.xib */; };
+		FC8C52791A245B5E002A3F74 /* KeyItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8C52781A245B5E002A3F74 /* KeyItemTableViewCell.m */; };
+		FC8C527F1A245F3E002A3F74 /* DownAccessory.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8C527B1A245F3E002A3F74 /* DownAccessory.png */; };
+		FC8C52801A245F3E002A3F74 /* DownAccessory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8C527C1A245F3E002A3F74 /* DownAccessory@2x.png */; };
+		FC8C52811A245F3E002A3F74 /* UpAccessory.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8C527D1A245F3E002A3F74 /* UpAccessory.png */; };
+		FC8C52821A245F3E002A3F74 /* UpAccessory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC8C527E1A245F3E002A3F74 /* UpAccessory@2x.png */; };
+		FC8C52841A247F0E002A3F74 /* CarInfoValueItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8C52831A247F0E002A3F74 /* CarInfoValueItem.xib */; };
+		FC8C52871A247F27002A3F74 /* VauleItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8C52861A247F27002A3F74 /* VauleItemTableViewCell.m */; };
+		FC9137571A22CC8900F78A57 /* CarInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9137561A22CC8900F78A57 /* CarInfoViewController.m */; };
+		FC91375A1A230A8000F78A57 /* CarListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9137591A230A8000F78A57 /* CarListTableViewController.m */; };
+		FC91375C1A23244E00F78A57 /* carList.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC91375B1A23244E00F78A57 /* carList.plist */; };
+		FC9B046B1A300889002F16C2 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9B046A1A300889002F16C2 /* AboutUsViewController.m */; };
+		FC9B046E1A304D12002F16C2 /* FeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9B046D1A304D12002F16C2 /* FeedBackViewController.m */; };
+		FC9CFFE21A26BBA1002DD2A9 /* CustomAnn.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9CFFE11A26BBA1002DD2A9 /* CustomAnn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC65067C1A1599060012288F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC6506571A1599060012288F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC65065E1A1599060012288F;
+			remoteInfo = SmartBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC0D6FDC1A2EEA6D00F810C9 /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
+		FC0D6FDD1A2EEA6D00F810C9 /* RadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
+		FC530C051A37E09A00F8EDA5 /* PointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointViewController.h; sourceTree = "<group>"; };
+		FC530C061A37E09A00F8EDA5 /* PointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointViewController.m; sourceTree = "<group>"; };
+		FC5729641A31499E00762D30 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		FC5729651A31499E00762D30 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		FC5729691A31522000762D30 /* 0-SMART-BOX-启动.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0-SMART-BOX-启动.png"; sourceTree = "<group>"; };
+		FC57296A1A31522000762D30 /* 0-SMART-BOX-启动_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0-SMART-BOX-启动_logo.png"; sourceTree = "<group>"; };
+		FC57296B1A31522000762D30 /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		FC57296D1A31522000762D30 /* 1-SMART-BOX-登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-SMART-BOX-登录.png"; sourceTree = "<group>"; };
+		FC57296E1A31522000762D30 /* Change-password-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Change-password-Icon.png"; sourceTree = "<group>"; };
+		FC57296F1A31522000762D30 /* login-icon-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-icon-1.png"; sourceTree = "<group>"; };
+		FC5729701A31522000762D30 /* login-icon-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-icon-2.png"; sourceTree = "<group>"; };
+		FC5729711A31522000762D30 /* Registration-Camera-ICON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Registration-Camera-ICON.png"; sourceTree = "<group>"; };
+		FC5729721A31522000762D30 /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		FC5729741A31522000762D30 /* 2-SMART-BOX-主界面-统计-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-SMART-BOX-主界面-统计-2.png"; sourceTree = "<group>"; };
+		FC5729751A31522000762D30 /* 2-SMART-BOX-主界面-统计.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-SMART-BOX-主界面-统计.png"; sourceTree = "<group>"; };
+		FC5729761A31522000762D30 /* 2-SMART-BOX-统计报表-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-SMART-BOX-统计报表-1.png"; sourceTree = "<group>"; };
+		FC5729771A31522000762D30 /* 2-SMART-BOX-统计报表-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-SMART-BOX-统计报表-2.png"; sourceTree = "<group>"; };
+		FC5729781A31522000762D30 /* 2-SMART-BOX-统计报表-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-SMART-BOX-统计报表-3.png"; sourceTree = "<group>"; };
+		FC5729791A31522000762D30 /* Grade-background-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grade-background-color.png"; sourceTree = "<group>"; };
+		FC57297A1A31522000762D30 /* Share-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Share-Icon.png"; sourceTree = "<group>"; };
+		FC57297B1A31522000762D30 /* Statistical-report-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Statistical-report-Icon.png"; sourceTree = "<group>"; };
+		FC57297C1A31522000762D30 /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		FC57297E1A31522000762D30 /* 3-SMART-BOX-主界面-行驶.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-SMART-BOX-主界面-行驶.png"; sourceTree = "<group>"; };
+		FC57297F1A31522000762D30 /* date-list-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "date-list-icon.png"; sourceTree = "<group>"; };
+		FC5729801A31522000762D30 /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		FC5729821A31522000762D30 /* 4-SMART-BOX-主界面-发现.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4-SMART-BOX-主界面-发现.png"; sourceTree = "<group>"; };
+		FC5729831A31522000762D30 /* news-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "news-icon.png"; sourceTree = "<group>"; };
+		FC5729841A31522000762D30 /* setting-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting-icon.png"; sourceTree = "<group>"; };
+		FC5729851A31522000762D30 /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		FC5729871A31522000762D30 /* 4-SMART-BOX-主界面-发现-消息提醒内容.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4-SMART-BOX-主界面-发现-消息提醒内容.png"; sourceTree = "<group>"; };
+		FC5729881A31522000762D30 /* 5-SMART-BOX-主界面-更多.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-主界面-更多.png"; sourceTree = "<group>"; };
+		FC5729891A31522000762D30 /* angle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angle.png; sourceTree = "<group>"; };
+		FC57298A1A31522000762D30 /* car-broke-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car-broke-down.png"; sourceTree = "<group>"; };
+		FC57298B1A31522000762D30 /* car-broke-down.png.baiduyun.uploading.cfg */ = {isa = PBXFileReference; lastKnownFileType = file; path = "car-broke-down.png.baiduyun.uploading.cfg"; sourceTree = "<group>"; };
+		FC57298C1A31522000762D30 /* injured-man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "injured-man.png"; sourceTree = "<group>"; };
+		FC57298D1A31522000762D30 /* Insurance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Insurance.png; sourceTree = "<group>"; };
+		FC57298E1A31522000762D30 /* left-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-on.png"; sourceTree = "<group>"; };
+		FC57298F1A31522000762D30 /* left-under.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-under.png"; sourceTree = "<group>"; };
+		FC5729901A31522000762D30 /* portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portrait.png; sourceTree = "<group>"; };
+		FC5729911A31522000762D30 /* right-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-on.png"; sourceTree = "<group>"; };
+		FC5729921A31522000762D30 /* right-under.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-under.png"; sourceTree = "<group>"; };
+		FC5729931A31522000762D30 /* Setting-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setting-Icon.png"; sourceTree = "<group>"; };
+		FC5729941A31522000762D30 /* The-car-position-ICON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The-car-position-ICON.png"; sourceTree = "<group>"; };
+		FC5729951A31522000762D30 /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		FC5729961A31522000762D30 /* Warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Warning.png; sourceTree = "<group>"; };
+		FC5729981A31522000762D30 /* 5-SMART-BOX-about-feedback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-about-feedback.png"; sourceTree = "<group>"; };
+		FC5729991A31522000762D30 /* 5-SMART-BOX-about-update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-about-update.png"; sourceTree = "<group>"; };
+		FC57299A1A31522000762D30 /* 5-SMART-BOX-bxfa-detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-bxfa-detail.png"; sourceTree = "<group>"; };
+		FC57299B1A31522000762D30 /* 5-SMART-BOX-bxfa-long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-bxfa-long.png"; sourceTree = "<group>"; };
+		FC57299C1A31522000762D30 /* 5-SMART-BOX-bxfa-taxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-bxfa-taxi.png"; sourceTree = "<group>"; };
+		FC57299D1A31522000762D30 /* 5-SMART-BOX-bxfa-time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-bxfa-time.png"; sourceTree = "<group>"; };
+		FC57299E1A31522000762D30 /* 5-SMART-BOX-car-checkbox01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-car-checkbox01.png"; sourceTree = "<group>"; };
+		FC57299F1A31522000762D30 /* 5-SMART-BOX-car-checkbox02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-car-checkbox02.png"; sourceTree = "<group>"; };
+		FC5729A01A31522000762D30 /* 5-SMART-BOX-car-checkbox03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-car-checkbox03.png"; sourceTree = "<group>"; };
+		FC5729A11A31522000762D30 /* 5-SMART-BOX-car-close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-car-close.png"; sourceTree = "<group>"; };
+		FC5729A21A31522000762D30 /* 5-SMART-BOX-car-open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-car-open.png"; sourceTree = "<group>"; };
+		FC5729A31A31522000762D30 /* 5-SMART-BOX-car-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-car-up.png"; sourceTree = "<group>"; };
+		FC5729A41A31522000762D30 /* 5-SMART-BOX-icon-arrow01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5-SMART-BOX-icon-arrow01.jpg"; sourceTree = "<group>"; };
+		FC5729A51A31522000762D30 /* 5-SMART-BOX-icon-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-icon-back.png"; sourceTree = "<group>"; };
+		FC5729A61A31522000762D30 /* 5-SMART-BOX-icon-closed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-icon-closed.png"; sourceTree = "<group>"; };
+		FC5729A71A31522000762D30 /* 5-SMART-BOX-icon-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-icon-map.png"; sourceTree = "<group>"; };
+		FC5729A81A31522000762D30 /* 5-SMART-BOX-icon-open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-icon-open.png"; sourceTree = "<group>"; };
+		FC5729A91A31522000762D30 /* 5-SMART-BOX-icon-report.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-icon-report.png"; sourceTree = "<group>"; };
+		FC5729AA1A31522000762D30 /* 5-SMART-BOX-map-bus01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-map-bus01.png"; sourceTree = "<group>"; };
+		FC5729AB1A31522000762D30 /* 5-SMART-BOX-map-bus02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-map-bus02.png"; sourceTree = "<group>"; };
+		FC5729AC1A31522000762D30 /* 5-SMART-BOX-map-car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-map-car.png"; sourceTree = "<group>"; };
+		FC5729AD1A31522000762D30 /* 5-SMART-BOX-map-me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-map-me.png"; sourceTree = "<group>"; };
+		FC5729AE1A31522000762D30 /* 5-SMART-BOX-map-qi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-map-qi.png"; sourceTree = "<group>"; };
+		FC5729AF1A31522000762D30 /* 5-SMART-BOX-map-taxi01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-map-taxi01.png"; sourceTree = "<group>"; };
+		FC5729B01A31522000762D30 /* 5-SMART-BOX-map-taxi02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-map-taxi02.png"; sourceTree = "<group>"; };
+		FC5729B11A31522000762D30 /* 5-SMART-BOX-map-walk01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-map-walk01.png"; sourceTree = "<group>"; };
+		FC5729B21A31522000762D30 /* 5-SMART-BOX-map-walk02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-map-walk02.png"; sourceTree = "<group>"; };
+		FC5729B31A31522000762D30 /* 5-SMART-BOX-map-zhong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-map-zhong.png"; sourceTree = "<group>"; };
+		FC5729B41A31522000762D30 /* 5-SMART-BOX-more-acwz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-more-acwz.png"; sourceTree = "<group>"; };
+		FC5729B51A31522000762D30 /* 5-SMART-BOX-more-dljy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-more-dljy.png"; sourceTree = "<group>"; };
+		FC5729B61A31522000762D30 /* 5-SMART-BOX-more-qdyj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-more-qdyj.png"; sourceTree = "<group>"; };
+		FC5729B71A31522000762D30 /* 5-SMART-BOX-more-rsjy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-more-rsjy.png"; sourceTree = "<group>"; };
+		FC5729B81A31522000762D30 /* 5-SMART-BOX-more-set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-more-set.png"; sourceTree = "<group>"; };
+		FC5729B91A31522000762D30 /* 5-SMART-BOX-more-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-more-user.png"; sourceTree = "<group>"; };
+		FC5729BA1A31522000762D30 /* 5-SMART-BOX-more-yxbx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-more-yxbx.png"; sourceTree = "<group>"; };
+		FC5729BB1A31522000762D30 /* 5-SMART-BOX-nophone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-nophone.png"; sourceTree = "<group>"; };
+		FC5729BC1A31522000762D30 /* 5-SMART-BOX-pic-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-pic-camera.png"; sourceTree = "<group>"; };
+		FC5729BD1A31522000762D30 /* 5-SMART-BOX-pic-camera01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-pic-camera01.png"; sourceTree = "<group>"; };
+		FC5729BE1A31522000762D30 /* 5-SMART-BOX-pic-camera02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-pic-camera02.png"; sourceTree = "<group>"; };
+		FC5729BF1A31522000762D30 /* 5-SMART-BOX-pic-greensure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-pic-greensure.png"; sourceTree = "<group>"; };
+		FC5729C01A31522000762D30 /* 5-SMART-BOX-pic-sure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-pic-sure.png"; sourceTree = "<group>"; };
+		FC5729C11A31522000762D30 /* 5-SMART-BOX-position-address.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-position-address.png"; sourceTree = "<group>"; };
+		FC5729C21A31522000762D30 /* 5-SMART-BOX-position-car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-position-car.png"; sourceTree = "<group>"; };
+		FC5729C31A31522000762D30 /* 5-SMART-BOX-position-go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-position-go.png"; sourceTree = "<group>"; };
+		FC5729C41A31522000762D30 /* 5-SMART-BOX-position-me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-position-me.png"; sourceTree = "<group>"; };
+		FC5729C51A31522000762D30 /* 5-SMART-BOX-report-date.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-report-date.png"; sourceTree = "<group>"; };
+		FC5729C61A31522000762D30 /* 5-SMART-BOX-report-sucess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-report-sucess.png"; sourceTree = "<group>"; };
+		FC5729C71A31522000762D30 /* 5-SMART-BOX-set-clxx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5-SMART-BOX-set-clxx.jpg"; sourceTree = "<group>"; };
+		FC5729C81A31522000762D30 /* 5-SMART-BOX-set-grxx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5-SMART-BOX-set-grxx.jpg"; sourceTree = "<group>"; };
+		FC5729C91A31522000762D30 /* 5-SMART-BOX-set-gywm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5-SMART-BOX-set-gywm.jpg"; sourceTree = "<group>"; };
+		FC5729CA1A31522000762D30 /* 5-SMART-BOX-set-jf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5-SMART-BOX-set-jf.jpg"; sourceTree = "<group>"; };
+		FC5729CB1A31522000762D30 /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		FC5729CC1A31522000762D30 /* 更多-个人信息.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-个人信息.jpg"; sourceTree = "<group>"; };
+		FC5729CD1A31522000762D30 /* 更多-人伤救援1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-人伤救援1.jpg"; sourceTree = "<group>"; };
+		FC5729CE1A31522000762D30 /* 更多-人伤救援2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-人伤救援2.jpg"; sourceTree = "<group>"; };
+		FC5729CF1A31522000762D30 /* 更多-人伤救援3-事发地点.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-人伤救援3-事发地点.jpg"; sourceTree = "<group>"; };
+		FC5729D01A31522000762D30 /* 更多-人伤救援4-记录.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-人伤救援4-记录.jpg"; sourceTree = "<group>"; };
+		FC5729D11A31522000762D30 /* 更多-修改密码.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-修改密码.jpg"; sourceTree = "<group>"; };
+		FC5729D21A31522000762D30 /* 更多-修改昵称.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-修改昵称.jpg"; sourceTree = "<group>"; };
+		FC5729D31A31522000762D30 /* 更多-关于我们1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-关于我们1.jpg"; sourceTree = "<group>"; };
+		FC5729D41A31522000762D30 /* 更多-关于我们2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-关于我们2.jpg"; sourceTree = "<group>"; };
+		FC5729D51A31522000762D30 /* 更多-关于我们3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-关于我们3.jpg"; sourceTree = "<group>"; };
+		FC5729D61A31522000762D30 /* 更多-启动预警1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-启动预警1.jpg"; sourceTree = "<group>"; };
+		FC5729D71A31522000762D30 /* 更多-启动预警2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-启动预警2.jpg"; sourceTree = "<group>"; };
+		FC5729D81A31522000762D30 /* 更多-启动预警3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-启动预警3.jpg"; sourceTree = "<group>"; };
+		FC5729D91A31522000762D30 /* 更多-启动预警4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-启动预警4.jpg"; sourceTree = "<group>"; };
+		FC5729DA1A31522000762D30 /* 更多-启动预警5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-启动预警5.jpg"; sourceTree = "<group>"; };
+		FC5729DB1A31522000762D30 /* 更多-启动预警6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-启动预警6.jpg"; sourceTree = "<group>"; };
+		FC5729DC1A31522000762D30 /* 更多-启动预警7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-启动预警7.jpg"; sourceTree = "<group>"; };
+		FC5729DD1A31522000762D30 /* 更多-爱车位置1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-爱车位置1.jpg"; sourceTree = "<group>"; };
+		FC5729DE1A31522000762D30 /* 更多-爱车位置2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-爱车位置2.jpg"; sourceTree = "<group>"; };
+		FC5729DF1A31522000762D30 /* 更多-爱车位置3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-爱车位置3.jpg"; sourceTree = "<group>"; };
+		FC5729E01A31522000762D30 /* 更多-爱车位置4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-爱车位置4.jpg"; sourceTree = "<group>"; };
+		FC5729E11A31522000762D30 /* 更多-爱车位置5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-爱车位置5.jpg"; sourceTree = "<group>"; };
+		FC5729E21A31522000762D30 /* 更多-绑定手机1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-绑定手机1.jpg"; sourceTree = "<group>"; };
+		FC5729E31A31522000762D30 /* 更多-绑定手机2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-绑定手机2.jpg"; sourceTree = "<group>"; };
+		FC5729E41A31522000762D30 /* 更多-解除绑定.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-解除绑定.jpg"; sourceTree = "<group>"; };
+		FC5729E51A31522000762D30 /* 更多-设置.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-设置.jpg"; sourceTree = "<group>"; };
+		FC5729E61A31522000762D30 /* 更多-车辆信息1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-车辆信息1.jpg"; sourceTree = "<group>"; };
+		FC5729E71A31522000762D30 /* 更多-车辆信息2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-车辆信息2.jpg"; sourceTree = "<group>"; };
+		FC5729E81A31522000762D30 /* 更多-车辆信息3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-车辆信息3.jpg"; sourceTree = "<group>"; };
+		FC5729E91A31522000762D30 /* 更多-选择头像1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-选择头像1.jpg"; sourceTree = "<group>"; };
+		FC5729EA1A31522000762D30 /* 更多-选择头像2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-选择头像2.jpg"; sourceTree = "<group>"; };
+		FC5729EB1A31522000762D30 /* 更多-选择头像3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-选择头像3.jpg"; sourceTree = "<group>"; };
+		FC5729EC1A31522000762D30 /* 更多-道路救援1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-道路救援1.jpg"; sourceTree = "<group>"; };
+		FC5729ED1A31522000762D30 /* 更多-道路救援2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-道路救援2.jpg"; sourceTree = "<group>"; };
+		FC5729EE1A31522000762D30 /* 更多-首页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "更多-首页.jpg"; sourceTree = "<group>"; };
+		FC5EC30E1A19991800F70FFD /* PersonInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonInfoViewController.h; sourceTree = "<group>"; };
+		FC5EC30F1A19991800F70FFD /* PersonInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonInfoViewController.m; sourceTree = "<group>"; };
+		FC5EC3111A19CE5D00F70FFD /* 5-SMART-BOX-more-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-SMART-BOX-more-user.png"; sourceTree = "<group>"; };
+		FC5EC31A1A19E41100F70FFD /* PersonInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PersonInfo.plist; sourceTree = "<group>"; };
+		FC5EC31C1A19FC6500F70FFD /* BindPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BindPhoneViewController.h; sourceTree = "<group>"; };
+		FC5EC31D1A19FC6500F70FFD /* BindPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BindPhoneViewController.m; sourceTree = "<group>"; };
+		FC61CBB81A2EA90D0047BF2A /* ChoiceCarTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoiceCarTypeViewController.h; sourceTree = "<group>"; };
+		FC61CBB91A2EA90D0047BF2A /* ChoiceCarTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoiceCarTypeViewController.m; sourceTree = "<group>"; };
+		FC61CBBB1A2EABDD0047BF2A /* CarTypeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTypeTableViewCell.h; sourceTree = "<group>"; };
+		FC61CBBC1A2EABDD0047BF2A /* CarTypeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTypeTableViewCell.m; sourceTree = "<group>"; };
+		FC62B5C41A368BE200F7FF98 /* HumanRescueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanRescueViewController.h; sourceTree = "<group>"; };
+		FC62B5C51A368BE200F7FF98 /* HumanRescueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumanRescueViewController.m; sourceTree = "<group>"; };
+		FC62B5C71A36A4C200F7FF98 /* ContactInforViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactInforViewController.h; sourceTree = "<group>"; };
+		FC62B5C81A36A4C200F7FF98 /* ContactInforViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactInforViewController.m; sourceTree = "<group>"; };
+		FC65065F1A1599060012288F /* SmartBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6506631A1599060012288F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6506641A1599060012288F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC6506661A1599060012288F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC6506671A1599060012288F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC65066A1A1599060012288F /* SmartBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartBox.xcdatamodel; sourceTree = "<group>"; };
+		FC6506701A1599060012288F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC6506721A1599060012288F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC6506751A1599060012288F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC65067B1A1599060012288F /* SmartBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6506801A1599060012288F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6506811A1599060012288F /* SmartBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartBoxTests.m; sourceTree = "<group>"; };
+		FC65068E1A15ACEC0012288F /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		FC65068F1A15ACEC0012288F /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		FC6506911A15B03B0012288F /* SettingItem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SettingItem.plist; sourceTree = "<group>"; };
+		FC6506931A15EF570012288F /* 5-SMART-BOX-set-clxx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5-SMART-BOX-set-clxx.jpg"; sourceTree = "<group>"; };
+		FC6506941A15EF570012288F /* 5-SMART-BOX-set-grxx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5-SMART-BOX-set-grxx.jpg"; sourceTree = "<group>"; };
+		FC6506951A15EF570012288F /* 5-SMART-BOX-set-gywm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5-SMART-BOX-set-gywm.jpg"; sourceTree = "<group>"; };
+		FC6506961A15EF570012288F /* 5-SMART-BOX-set-jf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5-SMART-BOX-set-jf.jpg"; sourceTree = "<group>"; };
+		FC67C4F71A3556B400103441 /* 0-SMART-BOX-启动640-960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0-SMART-BOX-启动640-960.png"; sourceTree = "<group>"; };
+		FC67C4F81A3556B400103441 /* 0-SMART-BOX-启动640-1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0-SMART-BOX-启动640-1136.png"; sourceTree = "<group>"; };
+		FC67C4F91A3556B400103441 /* 0-SMART-BOX-启动750-1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0-SMART-BOX-启动750-1334.png"; sourceTree = "<group>"; };
+		FC67C4FA1A3556B400103441 /* 0-SMART-BOX-启动1242-2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "0-SMART-BOX-启动1242-2208.png"; sourceTree = "<group>"; };
+		FC6999D11A1DEA000056C725 /* EditNickNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditNickNameViewController.h; path = ../EditNickNameViewController.h; sourceTree = "<group>"; };
+		FC6999D21A1DEA000056C725 /* EditNickNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditNickNameViewController.m; path = ../EditNickNameViewController.m; sourceTree = "<group>"; };
+		FC6BBBE91A1C3025006DC742 /* PassWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassWordViewController.h; sourceTree = "<group>"; };
+		FC6BBBEA1A1C3025006DC742 /* PassWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassWordViewController.m; sourceTree = "<group>"; };
+		FC77378C1A256E61000A55DE /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		FC77378D1A256E61000A55DE /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		FC77378F1A256EA2000A55DE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FC7737911A25BFD2000A55DE /* MapClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapClientViewController.h; sourceTree = "<group>"; };
+		FC7737921A25BFD2000A55DE /* MapClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapClientViewController.m; sourceTree = "<group>"; };
+		FC7737941A25CE5C000A55DE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FC86A60C1A3940EE0022F9A7 /* PointCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PointCell.xib; sourceTree = "<group>"; };
+		FC86A60E1A3941040022F9A7 /* PointTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointTableViewCell.h; sourceTree = "<group>"; };
+		FC86A60F1A3941040022F9A7 /* PointTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointTableViewCell.m; sourceTree = "<group>"; };
+		FC8C526D1A245879002A3F74 /* CarInfoKeyItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarInfoKeyItem.xib; sourceTree = "<group>"; };
+		FC8C52771A245B5E002A3F74 /* KeyItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyItemTableViewCell.h; sourceTree = "<group>"; };
+		FC8C52781A245B5E002A3F74 /* KeyItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyItemTableViewCell.m; sourceTree = "<group>"; };
+		FC8C527B1A245F3E002A3F74 /* DownAccessory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DownAccessory.png; sourceTree = "<group>"; };
+		FC8C527C1A245F3E002A3F74 /* DownAccessory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DownAccessory@2x.png"; sourceTree = "<group>"; };
+		FC8C527D1A245F3E002A3F74 /* UpAccessory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UpAccessory.png; sourceTree = "<group>"; };
+		FC8C527E1A245F3E002A3F74 /* UpAccessory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UpAccessory@2x.png"; sourceTree = "<group>"; };
+		FC8C52831A247F0E002A3F74 /* CarInfoValueItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarInfoValueItem.xib; sourceTree = "<group>"; };
+		FC8C52851A247F27002A3F74 /* VauleItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VauleItemTableViewCell.h; sourceTree = "<group>"; };
+		FC8C52861A247F27002A3F74 /* VauleItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VauleItemTableViewCell.m; sourceTree = "<group>"; };
+		FC9137551A22CC8900F78A57 /* CarInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarInfoViewController.h; sourceTree = "<group>"; };
+		FC9137561A22CC8900F78A57 /* CarInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarInfoViewController.m; sourceTree = "<group>"; };
+		FC9137581A230A8000F78A57 /* CarListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarListTableViewController.h; sourceTree = "<group>"; };
+		FC9137591A230A8000F78A57 /* CarListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarListTableViewController.m; sourceTree = "<group>"; };
+		FC91375B1A23244E00F78A57 /* carList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = carList.plist; sourceTree = "<group>"; };
+		FC9B04691A300889002F16C2 /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		FC9B046A1A300889002F16C2 /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		FC9B046C1A304D12002F16C2 /* FeedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedBackViewController.h; sourceTree = "<group>"; };
+		FC9B046D1A304D12002F16C2 /* FeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBackViewController.m; sourceTree = "<group>"; };
+		FC9CFFE01A26BBA1002DD2A9 /* CustomAnn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnn.h; sourceTree = "<group>"; };
+		FC9CFFE11A26BBA1002DD2A9 /* CustomAnn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnn.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC65065C1A1599060012288F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7737951A25CE5C000A55DE /* MapKit.framework in Frameworks */,
+				FC7737901A256EA2000A55DE /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6506781A1599060012288F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC5729671A31522000762D30 /* 切图 */ = {
+			isa = PBXGroup;
+			children = (
+				FC5729681A31522000762D30 /* 0-启动 */,
+				FC57296C1A31522000762D30 /* 1-登录 */,
+				FC5729731A31522000762D30 /* 2-统计 */,
+				FC57297D1A31522000762D30 /* 3-行驶 */,
+				FC5729811A31522000762D30 /* 4-发现 */,
+				FC5729861A31522000762D30 /* 5-更多 */,
+			);
+			path = "切图";
+			sourceTree = "<group>";
+		};
+		FC5729681A31522000762D30 /* 0-启动 */ = {
+			isa = PBXGroup;
+			children = (
+				FC5729691A31522000762D30 /* 0-SMART-BOX-启动.png */,
+				FC57296A1A31522000762D30 /* 0-SMART-BOX-启动_logo.png */,
+				FC57296B1A31522000762D30 /* Thumbs.db */,
+			);
+			path = "0-启动";
+			sourceTree = "<group>";
+		};
+		FC57296C1A31522000762D30 /* 1-登录 */ = {
+			isa = PBXGroup;
+			children = (
+				FC57296D1A31522000762D30 /* 1-SMART-BOX-登录.png */,
+				FC57296E1A31522000762D30 /* Change-password-Icon.png */,
+				FC57296F1A31522000762D30 /* login-icon-1.png */,
+				FC5729701A31522000762D30 /* login-icon-2.png */,
+				FC5729711A31522000762D30 /* Registration-Camera-ICON.png */,
+				FC5729721A31522000762D30 /* Thumbs.db */,
+			);
+			path = "1-登录";
+			sourceTree = "<group>";
+		};
+		FC5729731A31522000762D30 /* 2-统计 */ = {
+			isa = PBXGroup;
+			children = (
+				FC5729741A31522000762D30 /* 2-SMART-BOX-主界面-统计-2.png */,
+				FC5729751A31522000762D30 /* 2-SMART-BOX-主界面-统计.png */,
+				FC5729761A31522000762D30 /* 2-SMART-BOX-统计报表-1.png */,
+				FC5729771A31522000762D30 /* 2-SMART-BOX-统计报表-2.png */,
+				FC5729781A31522000762D30 /* 2-SMART-BOX-统计报表-3.png */,
+				FC5729791A31522000762D30 /* Grade-background-color.png */,
+				FC57297A1A31522000762D30 /* Share-Icon.png */,
+				FC57297B1A31522000762D30 /* Statistical-report-Icon.png */,
+				FC57297C1A31522000762D30 /* Thumbs.db */,
+			);
+			path = "2-统计";
+			sourceTree = "<group>";
+		};
+		FC57297D1A31522000762D30 /* 3-行驶 */ = {
+			isa = PBXGroup;
+			children = (
+				FC57297E1A31522000762D30 /* 3-SMART-BOX-主界面-行驶.png */,
+				FC57297F1A31522000762D30 /* date-list-icon.png */,
+				FC5729801A31522000762D30 /* Thumbs.db */,
+			);
+			path = "3-行驶";
+			sourceTree = "<group>";
+		};
+		FC5729811A31522000762D30 /* 4-发现 */ = {
+			isa = PBXGroup;
+			children = (
+				FC5729821A31522000762D30 /* 4-SMART-BOX-主界面-发现.png */,
+				FC5729831A31522000762D30 /* news-icon.png */,
+				FC5729841A31522000762D30 /* setting-icon.png */,
+				FC5729851A31522000762D30 /* Thumbs.db */,
+			);
+			path = "4-发现";
+			sourceTree = "<group>";
+		};
+		FC5729861A31522000762D30 /* 5-更多 */ = {
+			isa = PBXGroup;
+			children = (
+				FC5729871A31522000762D30 /* 4-SMART-BOX-主界面-发现-消息提醒内容.png */,
+				FC5729881A31522000762D30 /* 5-SMART-BOX-主界面-更多.png */,
+				FC5729891A31522000762D30 /* angle.png */,
+				FC57298A1A31522000762D30 /* car-broke-down.png */,
+				FC57298B1A31522000762D30 /* car-broke-down.png.baiduyun.uploading.cfg */,
+				FC57298C1A31522000762D30 /* injured-man.png */,
+				FC57298D1A31522000762D30 /* Insurance.png */,
+				FC57298E1A31522000762D30 /* left-on.png */,
+				FC57298F1A31522000762D30 /* left-under.png */,
+				FC5729901A31522000762D30 /* portrait.png */,
+				FC5729911A31522000762D30 /* right-on.png */,
+				FC5729921A31522000762D30 /* right-under.png */,
+				FC5729931A31522000762D30 /* Setting-Icon.png */,
+				FC5729941A31522000762D30 /* The-car-position-ICON.png */,
+				FC5729951A31522000762D30 /* Thumbs.db */,
+				FC5729961A31522000762D30 /* Warning.png */,
+				FC5729971A31522000762D30 /* 更多-切图 */,
+			);
+			path = "5-更多";
+			sourceTree = "<group>";
+		};
+		FC5729971A31522000762D30 /* 更多-切图 */ = {
+			isa = PBXGroup;
+			children = (
+				FC5729981A31522000762D30 /* 5-SMART-BOX-about-feedback.png */,
+				FC5729991A31522000762D30 /* 5-SMART-BOX-about-update.png */,
+				FC57299A1A31522000762D30 /* 5-SMART-BOX-bxfa-detail.png */,
+				FC57299B1A31522000762D30 /* 5-SMART-BOX-bxfa-long.png */,
+				FC57299C1A31522000762D30 /* 5-SMART-BOX-bxfa-taxi.png */,
+				FC57299D1A31522000762D30 /* 5-SMART-BOX-bxfa-time.png */,
+				FC57299E1A31522000762D30 /* 5-SMART-BOX-car-checkbox01.png */,
+				FC57299F1A31522000762D30 /* 5-SMART-BOX-car-checkbox02.png */,
+				FC5729A01A31522000762D30 /* 5-SMART-BOX-car-checkbox03.png */,
+				FC5729A11A31522000762D30 /* 5-SMART-BOX-car-close.png */,
+				FC5729A21A31522000762D30 /* 5-SMART-BOX-car-open.png */,
+				FC5729A31A31522000762D30 /* 5-SMART-BOX-car-up.png */,
+				FC5729A41A31522000762D30 /* 5-SMART-BOX-icon-arrow01.jpg */,
+				FC5729A51A31522000762D30 /* 5-SMART-BOX-icon-back.png */,
+				FC5729A61A31522000762D30 /* 5-SMART-BOX-icon-closed.png */,
+				FC5729A71A31522000762D30 /* 5-SMART-BOX-icon-map.png */,
+				FC5729A81A31522000762D30 /* 5-SMART-BOX-icon-open.png */,
+				FC5729A91A31522000762D30 /* 5-SMART-BOX-icon-report.png */,
+				FC5729AA1A31522000762D30 /* 5-SMART-BOX-map-bus01.png */,
+				FC5729AB1A31522000762D30 /* 5-SMART-BOX-map-bus02.png */,
+				FC5729AC1A31522000762D30 /* 5-SMART-BOX-map-car.png */,
+				FC5729AD1A31522000762D30 /* 5-SMART-BOX-map-me.png */,
+				FC5729AE1A31522000762D30 /* 5-SMART-BOX-map-qi.png */,
+				FC5729AF1A31522000762D30 /* 5-SMART-BOX-map-taxi01.png */,
+				FC5729B01A31522000762D30 /* 5-SMART-BOX-map-taxi02.png */,
+				FC5729B11A31522000762D30 /* 5-SMART-BOX-map-walk01.png */,
+				FC5729B21A31522000762D30 /* 5-SMART-BOX-map-walk02.png */,
+				FC5729B31A31522000762D30 /* 5-SMART-BOX-map-zhong.png */,
+				FC5729B41A31522000762D30 /* 5-SMART-BOX-more-acwz.png */,
+				FC5729B51A31522000762D30 /* 5-SMART-BOX-more-dljy.png */,
+				FC5729B61A31522000762D30 /* 5-SMART-BOX-more-qdyj.png */,
+				FC5729B71A31522000762D30 /* 5-SMART-BOX-more-rsjy.png */,
+				FC5729B81A31522000762D30 /* 5-SMART-BOX-more-set.png */,
+				FC5729B91A31522000762D30 /* 5-SMART-BOX-more-user.png */,
+				FC5729BA1A31522000762D30 /* 5-SMART-BOX-more-yxbx.png */,
+				FC5729BB1A31522000762D30 /* 5-SMART-BOX-nophone.png */,
+				FC5729BC1A31522000762D30 /* 5-SMART-BOX-pic-camera.png */,
+				FC5729BD1A31522000762D30 /* 5-SMART-BOX-pic-camera01.png */,
+				FC5729BE1A31522000762D30 /* 5-SMART-BOX-pic-camera02.png */,
+				FC5729BF1A31522000762D30 /* 5-SMART-BOX-pic-greensure.png */,
+				FC5729C01A31522000762D30 /* 5-SMART-BOX-pic-sure.png */,
+				FC5729C11A31522000762D30 /* 5-SMART-BOX-position-address.png */,
+				FC5729C21A31522000762D30 /* 5-SMART-BOX-position-car.png */,
+				FC5729C31A31522000762D30 /* 5-SMART-BOX-position-go.png */,
+				FC5729C41A31522000762D30 /* 5-SMART-BOX-position-me.png */,
+				FC5729C51A31522000762D30 /* 5-SMART-BOX-report-date.png */,
+				FC5729C61A31522000762D30 /* 5-SMART-BOX-report-sucess.png */,
+				FC5729C71A31522000762D30 /* 5-SMART-BOX-set-clxx.jpg */,
+				FC5729C81A31522000762D30 /* 5-SMART-BOX-set-grxx.jpg */,
+				FC5729C91A31522000762D30 /* 5-SMART-BOX-set-gywm.jpg */,
+				FC5729CA1A31522000762D30 /* 5-SMART-BOX-set-jf.jpg */,
+				FC5729CB1A31522000762D30 /* Thumbs.db */,
+				FC5729CC1A31522000762D30 /* 更多-个人信息.jpg */,
+				FC5729CD1A31522000762D30 /* 更多-人伤救援1.jpg */,
+				FC5729CE1A31522000762D30 /* 更多-人伤救援2.jpg */,
+				FC5729CF1A31522000762D30 /* 更多-人伤救援3-事发地点.jpg */,
+				FC5729D01A31522000762D30 /* 更多-人伤救援4-记录.jpg */,
+				FC5729D11A31522000762D30 /* 更多-修改密码.jpg */,
+				FC5729D21A31522000762D30 /* 更多-修改昵称.jpg */,
+				FC5729D31A31522000762D30 /* 更多-关于我们1.jpg */,
+				FC5729D41A31522000762D30 /* 更多-关于我们2.jpg */,
+				FC5729D51A31522000762D30 /* 更多-关于我们3.jpg */,
+				FC5729D61A31522000762D30 /* 更多-启动预警1.jpg */,
+				FC5729D71A31522000762D30 /* 更多-启动预警2.jpg */,
+				FC5729D81A31522000762D30 /* 更多-启动预警3.jpg */,
+				FC5729D91A31522000762D30 /* 更多-启动预警4.jpg */,
+				FC5729DA1A31522000762D30 /* 更多-启动预警5.jpg */,
+				FC5729DB1A31522000762D30 /* 更多-启动预警6.jpg */,
+				FC5729DC1A31522000762D30 /* 更多-启动预警7.jpg */,
+				FC5729DD1A31522000762D30 /* 更多-爱车位置1.jpg */,
+				FC5729DE1A31522000762D30 /* 更多-爱车位置2.jpg */,
+				FC5729DF1A31522000762D30 /* 更多-爱车位置3.jpg */,
+				FC5729E01A31522000762D30 /* 更多-爱车位置4.jpg */,
+				FC5729E11A31522000762D30 /* 更多-爱车位置5.jpg */,
+				FC5729E21A31522000762D30 /* 更多-绑定手机1.jpg */,
+				FC5729E31A31522000762D30 /* 更多-绑定手机2.jpg */,
+				FC5729E41A31522000762D30 /* 更多-解除绑定.jpg */,
+				FC5729E51A31522000762D30 /* 更多-设置.jpg */,
+				FC5729E61A31522000762D30 /* 更多-车辆信息1.jpg */,
+				FC5729E71A31522000762D30 /* 更多-车辆信息2.jpg */,
+				FC5729E81A31522000762D30 /* 更多-车辆信息3.jpg */,
+				FC5729E91A31522000762D30 /* 更多-选择头像1.jpg */,
+				FC5729EA1A31522000762D30 /* 更多-选择头像2.jpg */,
+				FC5729EB1A31522000762D30 /* 更多-选择头像3.jpg */,
+				FC5729EC1A31522000762D30 /* 更多-道路救援1.jpg */,
+				FC5729ED1A31522000762D30 /* 更多-道路救援2.jpg */,
+				FC5729EE1A31522000762D30 /* 更多-首页.jpg */,
+			);
+			path = "更多-切图";
+			sourceTree = "<group>";
+		};
+		FC6506561A1599060012288F = {
+			isa = PBXGroup;
+			children = (
+				FC6506611A1599060012288F /* SmartBox */,
+				FC65067E1A1599060012288F /* SmartBoxTests */,
+				FC6506601A1599060012288F /* Products */,
+				FC7737941A25CE5C000A55DE /* MapKit.framework */,
+				FC77378F1A256EA2000A55DE /* CoreLocation.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		FC6506601A1599060012288F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC65065F1A1599060012288F /* SmartBox.app */,
+				FC65067B1A1599060012288F /* SmartBoxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC6506611A1599060012288F /* SmartBox */ = {
+			isa = PBXGroup;
+			children = (
+				FC530C051A37E09A00F8EDA5 /* PointViewController.h */,
+				FC530C061A37E09A00F8EDA5 /* PointViewController.m */,
+				FC62B5C71A36A4C200F7FF98 /* ContactInforViewController.h */,
+				FC62B5C81A36A4C200F7FF98 /* ContactInforViewController.m */,
+				FC62B5C41A368BE200F7FF98 /* HumanRescueViewController.h */,
+				FC62B5C51A368BE200F7FF98 /* HumanRescueViewController.m */,
+				FC5729641A31499E00762D30 /* MoreViewController.h */,
+				FC5729651A31499E00762D30 /* MoreViewController.m */,
+				FC9B046C1A304D12002F16C2 /* FeedBackViewController.h */,
+				FC9B046D1A304D12002F16C2 /* FeedBackViewController.m */,
+				FC9B04691A300889002F16C2 /* AboutUsViewController.h */,
+				FC9B046A1A300889002F16C2 /* AboutUsViewController.m */,
+				FC0D6FDC1A2EEA6D00F810C9 /* RadioButton.h */,
+				FC0D6FDD1A2EEA6D00F810C9 /* RadioButton.m */,
+				FC9CFFDF1A26BAE1002DD2A9 /* Map */,
+				FC8C527A1A245B90002A3F74 /* TableCell */,
+				FC61CBB81A2EA90D0047BF2A /* ChoiceCarTypeViewController.h */,
+				FC61CBB91A2EA90D0047BF2A /* ChoiceCarTypeViewController.m */,
+				FC9137581A230A8000F78A57 /* CarListTableViewController.h */,
+				FC9137591A230A8000F78A57 /* CarListTableViewController.m */,
+				FC9137551A22CC8900F78A57 /* CarInfoViewController.h */,
+				FC9137561A22CC8900F78A57 /* CarInfoViewController.m */,
+				FC6999D11A1DEA000056C725 /* EditNickNameViewController.h */,
+				FC6999D21A1DEA000056C725 /* EditNickNameViewController.m */,
+				FC6BBBE91A1C3025006DC742 /* PassWordViewController.h */,
+				FC6BBBEA1A1C3025006DC742 /* PassWordViewController.m */,
+				FC5EC31C1A19FC6500F70FFD /* BindPhoneViewController.h */,
+				FC5EC31D1A19FC6500F70FFD /* BindPhoneViewController.m */,
+				FC5EC30E1A19991800F70FFD /* PersonInfoViewController.h */,
+				FC5EC30F1A19991800F70FFD /* PersonInfoViewController.m */,
+				FC65068E1A15ACEC0012288F /* SettingViewController.h */,
+				FC65068F1A15ACEC0012288F /* SettingViewController.m */,
+				FC6506661A1599060012288F /* AppDelegate.h */,
+				FC6506671A1599060012288F /* AppDelegate.m */,
+				FC65066F1A1599060012288F /* Main.storyboard */,
+				FC6506721A1599060012288F /* Images.xcassets */,
+				FC6506741A1599060012288F /* LaunchScreen.xib */,
+				FC6506691A1599060012288F /* SmartBox.xcdatamodeld */,
+				FC6506621A1599060012288F /* Supporting Files */,
+			);
+			path = SmartBox;
+			sourceTree = "<group>";
+		};
+		FC6506621A1599060012288F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC67C4F71A3556B400103441 /* 0-SMART-BOX-启动640-960.png */,
+				FC67C4F81A3556B400103441 /* 0-SMART-BOX-启动640-1136.png */,
+				FC67C4F91A3556B400103441 /* 0-SMART-BOX-启动750-1334.png */,
+				FC67C4FA1A3556B400103441 /* 0-SMART-BOX-启动1242-2208.png */,
+				FC5729671A31522000762D30 /* 切图 */,
+				FC8C527B1A245F3E002A3F74 /* DownAccessory.png */,
+				FC8C527C1A245F3E002A3F74 /* DownAccessory@2x.png */,
+				FC8C527D1A245F3E002A3F74 /* UpAccessory.png */,
+				FC8C527E1A245F3E002A3F74 /* UpAccessory@2x.png */,
+				FC5EC3111A19CE5D00F70FFD /* 5-SMART-BOX-more-user.png */,
+				FC6506931A15EF570012288F /* 5-SMART-BOX-set-clxx.jpg */,
+				FC6506941A15EF570012288F /* 5-SMART-BOX-set-grxx.jpg */,
+				FC6506951A15EF570012288F /* 5-SMART-BOX-set-gywm.jpg */,
+				FC6506961A15EF570012288F /* 5-SMART-BOX-set-jf.jpg */,
+				FC6506631A1599060012288F /* Info.plist */,
+				FC6506641A1599060012288F /* main.m */,
+				FC6506911A15B03B0012288F /* SettingItem.plist */,
+				FC5EC31A1A19E41100F70FFD /* PersonInfo.plist */,
+				FC91375B1A23244E00F78A57 /* carList.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC65067E1A1599060012288F /* SmartBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC6506811A1599060012288F /* SmartBoxTests.m */,
+				FC65067F1A1599060012288F /* Supporting Files */,
+			);
+			path = SmartBoxTests;
+			sourceTree = "<group>";
+		};
+		FC65067F1A1599060012288F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC6506801A1599060012288F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC8C527A1A245B90002A3F74 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC8C52851A247F27002A3F74 /* VauleItemTableViewCell.h */,
+				FC8C52861A247F27002A3F74 /* VauleItemTableViewCell.m */,
+				FC8C52831A247F0E002A3F74 /* CarInfoValueItem.xib */,
+				FC8C526D1A245879002A3F74 /* CarInfoKeyItem.xib */,
+				FC8C52771A245B5E002A3F74 /* KeyItemTableViewCell.h */,
+				FC8C52781A245B5E002A3F74 /* KeyItemTableViewCell.m */,
+				FC61CBBB1A2EABDD0047BF2A /* CarTypeTableViewCell.h */,
+				FC61CBBC1A2EABDD0047BF2A /* CarTypeTableViewCell.m */,
+				FC86A60C1A3940EE0022F9A7 /* PointCell.xib */,
+				FC86A60E1A3941040022F9A7 /* PointTableViewCell.h */,
+				FC86A60F1A3941040022F9A7 /* PointTableViewCell.m */,
+			);
+			name = TableCell;
+			sourceTree = "<group>";
+		};
+		FC9CFFDF1A26BAE1002DD2A9 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				FC7737911A25BFD2000A55DE /* MapClientViewController.h */,
+				FC7737921A25BFD2000A55DE /* MapClientViewController.m */,
+				FC77378C1A256E61000A55DE /* MapViewController.h */,
+				FC77378D1A256E61000A55DE /* MapViewController.m */,
+				FC9CFFE01A26BBA1002DD2A9 /* CustomAnn.h */,
+				FC9CFFE11A26BBA1002DD2A9 /* CustomAnn.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC65065E1A1599060012288F /* SmartBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6506851A1599060012288F /* Build configuration list for PBXNativeTarget "SmartBox" */;
+			buildPhases = (
+				FC65065B1A1599060012288F /* Sources */,
+				FC65065C1A1599060012288F /* Frameworks */,
+				FC65065D1A1599060012288F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartBox;
+			productName = SmartBox;
+			productReference = FC65065F1A1599060012288F /* SmartBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC65067A1A1599060012288F /* SmartBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6506881A1599060012288F /* Build configuration list for PBXNativeTarget "SmartBoxTests" */;
+			buildPhases = (
+				FC6506771A1599060012288F /* Sources */,
+				FC6506781A1599060012288F /* Frameworks */,
+				FC6506791A1599060012288F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC65067D1A1599060012288F /* PBXTargetDependency */,
+			);
+			name = SmartBoxTests;
+			productName = SmartBoxTests;
+			productReference = FC65067B1A1599060012288F /* SmartBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC6506571A1599060012288F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "chengtz-iMac";
+				TargetAttributes = {
+					FC65065E1A1599060012288F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FC65067A1A1599060012288F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FC65065E1A1599060012288F;
+					};
+				};
+			};
+			buildConfigurationList = FC65065A1A1599060012288F /* Build configuration list for PBXProject "SmartBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC6506561A1599060012288F;
+			productRefGroup = FC6506601A1599060012288F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC65065E1A1599060012288F /* SmartBox */,
+				FC65067A1A1599060012288F /* SmartBoxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC65065D1A1599060012288F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8C52821A245F3E002A3F74 /* UpAccessory@2x.png in Resources */,
+				FC6506991A15EF570012288F /* 5-SMART-BOX-set-gywm.jpg in Resources */,
+				FC572A6B1A31522000762D30 /* 更多-选择头像3.jpg in Resources */,
+				FC67C4FD1A3556B400103441 /* 0-SMART-BOX-启动750-1334.png in Resources */,
+				FC572A601A31522000762D30 /* 更多-爱车位置4.jpg in Resources */,
+				FC572A2D1A31522000762D30 /* 5-SMART-BOX-map-me.png in Resources */,
+				FC572A351A31522000762D30 /* 5-SMART-BOX-more-dljy.png in Resources */,
+				FC5729F21A31522000762D30 /* 1-SMART-BOX-登录.png in Resources */,
+				FC6506921A15B03B0012288F /* SettingItem.plist in Resources */,
+				FC572A171A31522000762D30 /* Warning.png in Resources */,
+				FC572A551A31522000762D30 /* 更多-关于我们3.jpg in Resources */,
+				FC572A141A31522000762D30 /* Setting-Icon.png in Resources */,
+				FC572A111A31522000762D30 /* portrait.png in Resources */,
+				FC572A6C1A31522000762D30 /* 更多-道路救援1.jpg in Resources */,
+				FC65069A1A15EF570012288F /* 5-SMART-BOX-set-jf.jpg in Resources */,
+				FC6506711A1599060012288F /* Main.storyboard in Resources */,
+				FC572A391A31522000762D30 /* 5-SMART-BOX-more-user.png in Resources */,
+				FC572A1E1A31522000762D30 /* 5-SMART-BOX-car-checkbox01.png in Resources */,
+				FC572A3F1A31522000762D30 /* 5-SMART-BOX-pic-greensure.png in Resources */,
+				FC67C4FB1A3556B400103441 /* 0-SMART-BOX-启动640-960.png in Resources */,
+				FC572A081A31522000762D30 /* 4-SMART-BOX-主界面-发现-消息提醒内容.png in Resources */,
+				FC572A3D1A31522000762D30 /* 5-SMART-BOX-pic-camera01.png in Resources */,
+				FC67C4FE1A3556B400103441 /* 0-SMART-BOX-启动1242-2208.png in Resources */,
+				FC572A431A31522000762D30 /* 5-SMART-BOX-position-go.png in Resources */,
+				FC572A3E1A31522000762D30 /* 5-SMART-BOX-pic-camera02.png in Resources */,
+				FC572A621A31522000762D30 /* 更多-绑定手机1.jpg in Resources */,
+				FC572A5F1A31522000762D30 /* 更多-爱车位置3.jpg in Resources */,
+				FC5729F71A31522000762D30 /* Thumbs.db in Resources */,
+				FC86A60D1A3940EE0022F9A7 /* PointCell.xib in Resources */,
+				FC572A2F1A31522000762D30 /* 5-SMART-BOX-map-taxi01.png in Resources */,
+				FC6506971A15EF570012288F /* 5-SMART-BOX-set-clxx.jpg in Resources */,
+				FC572A581A31522000762D30 /* 更多-启动预警3.jpg in Resources */,
+				FC572A671A31522000762D30 /* 更多-车辆信息2.jpg in Resources */,
+				FC572A531A31522000762D30 /* 更多-关于我们1.jpg in Resources */,
+				FC5729F81A31522000762D30 /* 2-SMART-BOX-主界面-统计-2.png in Resources */,
+				FC5729FD1A31522000762D30 /* Grade-background-color.png in Resources */,
+				FC572A061A31522000762D30 /* setting-icon.png in Resources */,
+				FC67C4FC1A3556B400103441 /* 0-SMART-BOX-启动640-1136.png in Resources */,
+				FC5729F61A31522000762D30 /* Registration-Camera-ICON.png in Resources */,
+				FC8C526E1A245879002A3F74 /* CarInfoKeyItem.xib in Resources */,
+				FC572A151A31522000762D30 /* The-car-position-ICON.png in Resources */,
+				FC91375C1A23244E00F78A57 /* carList.plist in Resources */,
+				FC572A021A31522000762D30 /* date-list-icon.png in Resources */,
+				FC572A181A31522000762D30 /* 5-SMART-BOX-about-feedback.png in Resources */,
+				FC5729F51A31522000762D30 /* login-icon-2.png in Resources */,
+				FC572A251A31522000762D30 /* 5-SMART-BOX-icon-back.png in Resources */,
+				FC572A201A31522000762D30 /* 5-SMART-BOX-car-checkbox03.png in Resources */,
+				FC572A5C1A31522000762D30 /* 更多-启动预警7.jpg in Resources */,
+				FC572A631A31522000762D30 /* 更多-绑定手机2.jpg in Resources */,
+				FC572A6A1A31522000762D30 /* 更多-选择头像2.jpg in Resources */,
+				FC6506761A1599060012288F /* LaunchScreen.xib in Resources */,
+				FC572A131A31522000762D30 /* right-under.png in Resources */,
+				FC572A6D1A31522000762D30 /* 更多-道路救援2.jpg in Resources */,
+				FC572A1B1A31522000762D30 /* 5-SMART-BOX-bxfa-long.png in Resources */,
+				FC572A3A1A31522000762D30 /* 5-SMART-BOX-more-yxbx.png in Resources */,
+				FC6506731A1599060012288F /* Images.xcassets in Resources */,
+				FC572A371A31522000762D30 /* 5-SMART-BOX-more-rsjy.png in Resources */,
+				FC572A101A31522000762D30 /* left-under.png in Resources */,
+				FC5EC31B1A19E41100F70FFD /* PersonInfo.plist in Resources */,
+				FC572A451A31522000762D30 /* 5-SMART-BOX-report-date.png in Resources */,
+				FC572A4E1A31522000762D30 /* 更多-人伤救援2.jpg in Resources */,
+				FC572A1A1A31522000762D30 /* 5-SMART-BOX-bxfa-detail.png in Resources */,
+				FC572A0A1A31522000762D30 /* angle.png in Resources */,
+				FC5729FE1A31522000762D30 /* Share-Icon.png in Resources */,
+				FC5EC3121A19CE5D00F70FFD /* 5-SMART-BOX-more-user.png in Resources */,
+				FC572A651A31522000762D30 /* 更多-设置.jpg in Resources */,
+				FC572A341A31522000762D30 /* 5-SMART-BOX-more-acwz.png in Resources */,
+				FC572A681A31522000762D30 /* 更多-车辆信息3.jpg in Resources */,
+				FC572A521A31522000762D30 /* 更多-修改昵称.jpg in Resources */,
+				FC572A011A31522000762D30 /* 3-SMART-BOX-主界面-行驶.png in Resources */,
+				FC572A6E1A31522000762D30 /* 更多-首页.jpg in Resources */,
+				FC5729F01A31522000762D30 /* 0-SMART-BOX-启动_logo.png in Resources */,
+				FC572A161A31522000762D30 /* Thumbs.db in Resources */,
+				FC8C52801A245F3E002A3F74 /* DownAccessory@2x.png in Resources */,
+				FC572A5D1A31522000762D30 /* 更多-爱车位置1.jpg in Resources */,
+				FC572A071A31522000762D30 /* Thumbs.db in Resources */,
+				FC572A491A31522000762D30 /* 5-SMART-BOX-set-gywm.jpg in Resources */,
+				FC572A241A31522000762D30 /* 5-SMART-BOX-icon-arrow01.jpg in Resources */,
+				FC572A2B1A31522000762D30 /* 5-SMART-BOX-map-bus02.png in Resources */,
+				FC8C52841A247F0E002A3F74 /* CarInfoValueItem.xib in Resources */,
+				FC572A0D1A31522000762D30 /* injured-man.png in Resources */,
+				FC5729F41A31522000762D30 /* login-icon-1.png in Resources */,
+				FC572A4A1A31522000762D30 /* 5-SMART-BOX-set-jf.jpg in Resources */,
+				FC572A301A31522000762D30 /* 5-SMART-BOX-map-taxi02.png in Resources */,
+				FC572A041A31522000762D30 /* 4-SMART-BOX-主界面-发现.png in Resources */,
+				FC572A641A31522000762D30 /* 更多-解除绑定.jpg in Resources */,
+				FC572A501A31522000762D30 /* 更多-人伤救援4-记录.jpg in Resources */,
+				FC572A331A31522000762D30 /* 5-SMART-BOX-map-zhong.png in Resources */,
+				FC572A0F1A31522000762D30 /* left-on.png in Resources */,
+				FC572A2E1A31522000762D30 /* 5-SMART-BOX-map-qi.png in Resources */,
+				FC572A571A31522000762D30 /* 更多-启动预警2.jpg in Resources */,
+				FC5729FA1A31522000762D30 /* 2-SMART-BOX-统计报表-1.png in Resources */,
+				FC572A051A31522000762D30 /* news-icon.png in Resources */,
+				FC572A5B1A31522000762D30 /* 更多-启动预警6.jpg in Resources */,
+				FC572A191A31522000762D30 /* 5-SMART-BOX-about-update.png in Resources */,
+				FC572A661A31522000762D30 /* 更多-车辆信息1.jpg in Resources */,
+				FC572A261A31522000762D30 /* 5-SMART-BOX-icon-closed.png in Resources */,
+				FC572A5A1A31522000762D30 /* 更多-启动预警5.jpg in Resources */,
+				FC572A3C1A31522000762D30 /* 5-SMART-BOX-pic-camera.png in Resources */,
+				FC5729FF1A31522000762D30 /* Statistical-report-Icon.png in Resources */,
+				FC8C52811A245F3E002A3F74 /* UpAccessory.png in Resources */,
+				FC572A2A1A31522000762D30 /* 5-SMART-BOX-map-bus01.png in Resources */,
+				FC572A5E1A31522000762D30 /* 更多-爱车位置2.jpg in Resources */,
+				FC572A281A31522000762D30 /* 5-SMART-BOX-icon-open.png in Resources */,
+				FC572A381A31522000762D30 /* 5-SMART-BOX-more-set.png in Resources */,
+				FC572A4C1A31522000762D30 /* 更多-个人信息.jpg in Resources */,
+				FC572A091A31522000762D30 /* 5-SMART-BOX-主界面-更多.png in Resources */,
+				FC5729F31A31522000762D30 /* Change-password-Icon.png in Resources */,
+				FC572A4B1A31522000762D30 /* Thumbs.db in Resources */,
+				FC572A481A31522000762D30 /* 5-SMART-BOX-set-grxx.jpg in Resources */,
+				FC572A0B1A31522000762D30 /* car-broke-down.png in Resources */,
+				FC572A4F1A31522000762D30 /* 更多-人伤救援3-事发地点.jpg in Resources */,
+				FC572A121A31522000762D30 /* right-on.png in Resources */,
+				FC572A411A31522000762D30 /* 5-SMART-BOX-position-address.png in Resources */,
+				FC572A231A31522000762D30 /* 5-SMART-BOX-car-up.png in Resources */,
+				FC572A311A31522000762D30 /* 5-SMART-BOX-map-walk01.png in Resources */,
+				FC572A441A31522000762D30 /* 5-SMART-BOX-position-me.png in Resources */,
+				FC572A0E1A31522000762D30 /* Insurance.png in Resources */,
+				FC572A1F1A31522000762D30 /* 5-SMART-BOX-car-checkbox02.png in Resources */,
+				FC572A291A31522000762D30 /* 5-SMART-BOX-icon-report.png in Resources */,
+				FC572A511A31522000762D30 /* 更多-修改密码.jpg in Resources */,
+				FC572A471A31522000762D30 /* 5-SMART-BOX-set-clxx.jpg in Resources */,
+				FC572A461A31522000762D30 /* 5-SMART-BOX-report-sucess.png in Resources */,
+				FC572A4D1A31522000762D30 /* 更多-人伤救援1.jpg in Resources */,
+				FC572A271A31522000762D30 /* 5-SMART-BOX-icon-map.png in Resources */,
+				FC572A1C1A31522000762D30 /* 5-SMART-BOX-bxfa-taxi.png in Resources */,
+				FC572A321A31522000762D30 /* 5-SMART-BOX-map-walk02.png in Resources */,
+				FC572A561A31522000762D30 /* 更多-启动预警1.jpg in Resources */,
+				FC572A1D1A31522000762D30 /* 5-SMART-BOX-bxfa-time.png in Resources */,
+				FC572A211A31522000762D30 /* 5-SMART-BOX-car-close.png in Resources */,
+				FC5729FB1A31522000762D30 /* 2-SMART-BOX-统计报表-2.png in Resources */,
+				FC572A3B1A31522000762D30 /* 5-SMART-BOX-nophone.png in Resources */,
+				FC572A031A31522000762D30 /* Thumbs.db in Resources */,
+				FC5729F11A31522000762D30 /* Thumbs.db in Resources */,
+				FC5729F91A31522000762D30 /* 2-SMART-BOX-主界面-统计.png in Resources */,
+				FC8C527F1A245F3E002A3F74 /* DownAccessory.png in Resources */,
+				FC572A001A31522000762D30 /* Thumbs.db in Resources */,
+				FC6506981A15EF570012288F /* 5-SMART-BOX-set-grxx.jpg in Resources */,
+				FC572A2C1A31522000762D30 /* 5-SMART-BOX-map-car.png in Resources */,
+				FC572A421A31522000762D30 /* 5-SMART-BOX-position-car.png in Resources */,
+				FC572A361A31522000762D30 /* 5-SMART-BOX-more-qdyj.png in Resources */,
+				FC5729EF1A31522000762D30 /* 0-SMART-BOX-启动.png in Resources */,
+				FC572A611A31522000762D30 /* 更多-爱车位置5.jpg in Resources */,
+				FC572A401A31522000762D30 /* 5-SMART-BOX-pic-sure.png in Resources */,
+				FC572A591A31522000762D30 /* 更多-启动预警4.jpg in Resources */,
+				FC5729FC1A31522000762D30 /* 2-SMART-BOX-统计报表-3.png in Resources */,
+				FC572A691A31522000762D30 /* 更多-选择头像1.jpg in Resources */,
+				FC572A541A31522000762D30 /* 更多-关于我们2.jpg in Resources */,
+				FC572A0C1A31522000762D30 /* car-broke-down.png.baiduyun.uploading.cfg in Resources */,
+				FC572A221A31522000762D30 /* 5-SMART-BOX-car-open.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6506791A1599060012288F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC65065B1A1599060012288F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6BBBEB1A1C3025006DC742 /* PassWordViewController.m in Sources */,
+				FC8C52791A245B5E002A3F74 /* KeyItemTableViewCell.m in Sources */,
+				FC61CBBD1A2EABDD0047BF2A /* CarTypeTableViewCell.m in Sources */,
+				FC7737931A25BFD2000A55DE /* MapClientViewController.m in Sources */,
+				FC8C52871A247F27002A3F74 /* VauleItemTableViewCell.m in Sources */,
+				FC62B5C61A368BE200F7FF98 /* HumanRescueViewController.m in Sources */,
+				FC0D6FDE1A2EEA6D00F810C9 /* RadioButton.m in Sources */,
+				FC5EC31E1A19FC6500F70FFD /* BindPhoneViewController.m in Sources */,
+				FC9B046B1A300889002F16C2 /* AboutUsViewController.m in Sources */,
+				FC530C071A37E09A00F8EDA5 /* PointViewController.m in Sources */,
+				FC62B5C91A36A4C200F7FF98 /* ContactInforViewController.m in Sources */,
+				FC6999D31A1DEA000056C725 /* EditNickNameViewController.m in Sources */,
+				FC65066B1A1599060012288F /* SmartBox.xcdatamodeld in Sources */,
+				FC9CFFE21A26BBA1002DD2A9 /* CustomAnn.m in Sources */,
+				FC9B046E1A304D12002F16C2 /* FeedBackViewController.m in Sources */,
+				FC6506681A1599060012288F /* AppDelegate.m in Sources */,
+				FC77378E1A256E62000A55DE /* MapViewController.m in Sources */,
+				FC61CBBA1A2EA90D0047BF2A /* ChoiceCarTypeViewController.m in Sources */,
+				FC9137571A22CC8900F78A57 /* CarInfoViewController.m in Sources */,
+				FC91375A1A230A8000F78A57 /* CarListTableViewController.m in Sources */,
+				FC5EC3101A19991800F70FFD /* PersonInfoViewController.m in Sources */,
+				FC6506651A1599060012288F /* main.m in Sources */,
+				FC5729661A31499E00762D30 /* MoreViewController.m in Sources */,
+				FC86A6101A3941040022F9A7 /* PointTableViewCell.m in Sources */,
+				FC6506901A15ACEC0012288F /* SettingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6506771A1599060012288F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6506821A1599060012288F /* SmartBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC65067D1A1599060012288F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC65065E1A1599060012288F /* SmartBox */;
+			targetProxy = FC65067C1A1599060012288F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC65066F1A1599060012288F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6506701A1599060012288F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC6506741A1599060012288F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6506751A1599060012288F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC6506831A1599060012288F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC6506841A1599060012288F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC6506861A1599060012288F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SmartBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FC6506871A1599060012288F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SmartBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		FC6506891A1599060012288F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartBox.app/SmartBox";
+			};
+			name = Debug;
+		};
+		FC65068A1A1599060012288F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartBox.app/SmartBox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC65065A1A1599060012288F /* Build configuration list for PBXProject "SmartBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6506831A1599060012288F /* Debug */,
+				FC6506841A1599060012288F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6506851A1599060012288F /* Build configuration list for PBXNativeTarget "SmartBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6506861A1599060012288F /* Debug */,
+				FC6506871A1599060012288F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6506881A1599060012288F /* Build configuration list for PBXNativeTarget "SmartBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6506891A1599060012288F /* Debug */,
+				FC65068A1A1599060012288F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC6506691A1599060012288F /* SmartBox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC65066A1A1599060012288F /* SmartBox.xcdatamodel */,
+			);
+			currentVersion = FC65066A1A1599060012288F /* SmartBox.xcdatamodel */;
+			path = SmartBox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC6506571A1599060012288F /* Project object */;
+}
